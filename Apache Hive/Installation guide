@@ -58,7 +58,7 @@ Step 4 : Move folder mysql-connector-java-5.0.8-bin.jar to usr/local/hive/lib
 sudo cp mysql-connector-java-5.0.8/mysql-connector-java-5.0.8-bin.jar /usr/local/hive/lib
 
 Step 5 : Move hive-jdbc-2.1.1-standalone.jar to /usr/local/hive/lib
-sudo cp /usr/local/hive/jdbc/hive-jdbc-2.1.1-standalone.jar /usr/local/hive/lib/
+sudo cp /usr/local/hive/jdbc/hive-jdbc-2.3.3-standalone.jar /usr/local/hive/lib/
 
 Step 6 : Set default database type
 schematool -initSchema -dbType mysql
