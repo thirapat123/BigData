@@ -5,7 +5,7 @@ Prerequisite
 4.Mysql-connector-java-5.0.8 or above
 
 ## Download Apache Hive ##
-wget http://apache.claz.org/hive/hive-2.1.1/apache-hive-2.1.1-bin.tar.gz
+wget http://www-eu.apache.org/dist/hive/hive-2.3.3/apache-hive-2.3.3-bin.tar.gz
 
 ########## Setup Mysql server ##########
 Step 1 : Install MySQL on Ubuntu
@@ -58,7 +58,7 @@ Step 4 : Move folder mysql-connector-java-5.0.8-bin.jar to usr/local/hive/lib
 sudo cp mysql-connector-java-5.0.8/mysql-connector-java-5.0.8-bin.jar /usr/local/hive/lib
 
 Step 5 : Move hive-jdbc-2.1.1-standalone.jar to /usr/local/hive/lib
-sudo cp /usr/local/hive/jdbc/hive-jdbc-2.1.1-standalone.jar /usr/local/hive/lib/
+sudo cp /usr/local/hive/jdbc/hive-jdbc-2.3.3-standalone.jar /usr/local/hive/lib/
 
 Step 6 : Set default database type
 schematool -initSchema -dbType mysql
