@@ -7,10 +7,10 @@ Prerequisite
 ######Create Folder Flume twitter_data#########
 hdfs dfs -mkdir /input
 hdfs dfs -mkdir /input/twitter_data
-hdsf dfs -chmod g+w /input/twitter_data 
+hdfs dfs -chmod g+w /input/twitter_data 
 
 #### Download Apache Flume###
-wget http://archive.apache.org/dist/flume/stable/apache-flume-1.7.0-bin.tar.gz
+wget https://downloads.apache.org/flume/1.7.0/apache-flume-1.7.0-bin.tar.gz
 
 ########## Setup Apache Flume##########
 Step 1 : ## Extract zip and move folder ##
